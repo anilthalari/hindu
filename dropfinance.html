@@ -1,0 +1,81 @@
+<html>
+<head>
+<title> Dropdown Menu </title>
+<style type="text/css">
+     *{  
+	 padding: 0; 
+	 margin:  0; 
+	}
+    body{ 
+	   padding: 5px;
+	   font-family: Helvetica, Arial, sans-serif;  
+	}
+    ul { 
+	list-style: none; 
+	}
+    ul li { 
+	   float:  left; 
+	   padding-right: 1px;
+	   position: relative;
+    }
+    ul a {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+    background: #1CEFFA; 
+	color: black;
+	text-decoration: none;
+	}
+     ul a:hover {
+	background: white;
+	}
+    li > ul {
+	display: none;
+	position: absolute;
+	left: 0; 
+	top: 100%;
+	}
+    li:hover > ul { 
+	display: block;
+	}
+    li > ul li {
+	   padding: 0; 
+	   padding-top: 1px;
+	}
+    li > ul li > ul { 
+	left: 100%; 
+	top: 0; 
+	padding-left: 1px;
+	}
+    li > ul li > ul li { 
+	width: 100px; 
+	}
+    li:hover > a { 
+	background: white ;
+	}
+
+</style>
+</head>
+<body>
+<ul>
+	<li><a href=""> Finance </a>
+	    <ul>
+            <li><a href=""> Inter </a>
+			<ul>
+                <li><a href=""> Enter </a></li>
+                <li><a href=""> Search </a></li>
+			</ul>	
+			</li>
+            <li><a href=""> Degree</a>
+			<ul>
+               <li><a href=""> Enter </a></li>
+               <li><a href=""> Search </a></li>
+			</ul>   
+			</li>
+        </ul>
+	</li>
+</ul>
+</body>
+</html>	

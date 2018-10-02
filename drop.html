@@ -1,0 +1,131 @@
+<html>
+<head>
+<title> Dropdown Menu </title>
+<style type="text/css">
+     *{  
+	 padding: 0; 
+	 margin:  0; 
+	}
+    body{ 
+	   padding: 5px;
+	   font-family: Helvetica, Arial, sans-serif;  
+	}
+    ul { 
+	list-style: none; 
+	}
+    ul li { 
+	   float:  left; 
+	   padding-right: 1px;
+	   position: relative;
+    }
+    ul a {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+    background: #1CEFFA; 
+	color: black;
+	text-decoration: none;
+	}
+     ul a:hover {
+	background: white;
+	}
+    li > ul {
+	display: none;
+	position: absolute;
+	left: 0; 
+	top: 100%;
+	}
+    li:hover > ul { 
+	display: block;
+	}
+    li > ul li {
+	   padding: 0; 
+	   padding-top: 1px;
+	}
+    li > ul li > ul { 
+	left: 100%; 
+	top: 0; 
+	padding-left: 1px;
+	}
+    li > ul li > ul li { 
+	width: 100px; 
+	}
+    li:hover > a { 
+	background: white ;
+	}
+
+</style>
+</head>
+<body>
+<ul>
+	<li><a href="">Home</a></li>
+	<li><a href="">About</a></li>
+	<li><a href=""> Course </a>
+        <ul>
+		    <li><a href=""> Inter </a>
+			    <ul>
+                        <li><a href=""> MPC </a></li>
+                        <li><a href=""> BIPC </a></li>
+                        <li><a href=""> CEC </a></li>
+						<li><a href=""> HEC </a></li>
+	                    <li><a href=""> MEC </a></li>
+                </ul>
+			</li>
+		    <li><a href=""> Degree </a>
+		    <ul>
+                <li><a href=""> BA </a>
+				    <ul>
+                        <li><a href=""> MES </a></li>
+                        <li><a href=""> HEP </a></li>
+                        <li><a href=""> SPEHP </a></li>
+	                    <li><a href=""> EICOM </a>
+                     </ul>
+
+                <li><a href=""> BSC </a>
+                    <ul>
+                        <li><a href=""> MPC </a></li>
+                        <li><a href=""> MPCS </a></li>
+                        <li><a href=""> MSCS </a></li>
+	                    <li><a href=""> MECS </a></li>
+						<li><a href=""> GPC </a></li>
+						<li><a href=""> BZC </a></li>
+						<li><a href=""> BSC(Agri..) </a></li>
+						<li><a href=""> BSC(Hort..) </a></li>
+                    </ul>
+                </li>
+                <li><a href=""> BCOM </a>
+				    <ul>
+                        <li><a href=""> BCOM(COM)</a></li>
+                        <li><a href=""> BCOM(GEN) </a></li>
+				    </ul>
+				</li>
+				
+            </ul>
+        </li>
+        <li><a href=""> PG </a>
+		<ul>
+            <li><a href=""> MSC </a>
+			    <ul>
+				    <li><a href=""> CHEMISTRY </a></li>
+                     <li><a href=""> PHYSICS </a></li>
+				</ul>
+            </li>				
+            <li><a href=""> MBA </a></li>
+            <li><a href=""> MCOM </a></li>
+	    </ul>
+		</li>
+	</li>
+    </ul>
+    </li>
+	   <li><a href=""> contact </a></li>
+	   <li><a href=""> Registration </a>
+                           <ul>
+                                      <li><a href=""> Student </a></li>
+                                      <li><a href=""> Employee </a></li>
+                              </ul>
+                   </li>
+     </ul>
+</body>
+</html>

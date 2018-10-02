@@ -1,0 +1,146 @@
+<html>
+<head>
+<title> Business Website </title>
+<style type="text/css">
+     *{  
+	 padding: 0; 
+	 margin:  0; 
+	}
+    body{ 
+	   padding: 5px;
+	   font-family: Helvetica, Arial, sans-serif;  
+	}
+    ul { 
+	list-style: none; 
+	}
+    ul li { 
+	   float:  left; 
+	   padding-right: 1px;
+	   position: relative;
+    }
+    ul a {
+	display: table-cell;
+	vertical-align: middle;
+	width: 80px;
+	height: 30px;
+	text-align: center; 
+	color: black;
+	text-decoration: none;
+	}
+     ul a:hover {
+	background: white;
+	}
+    li > ul {
+	display: none;
+	position: absolute;
+	left: 0; 
+	top: 100%;
+	}
+    li:hover > ul { 
+	display: block;
+	}
+    li > ul li {
+	   padding: 0; 
+	   padding-top: 1px;
+	}
+    li > ul li > ul { 
+	left: 100%; 
+	top: 0; 
+	padding-left: 1px;
+	}
+    li > ul li > ul li { 
+	width: 100px; 
+	}
+    li:hover > a { 
+	background: black;
+	}
+
+</style>
+<link href="style2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+    <div class="row">
+            <ul class="main-nav">
+				<li class="active"><a href=""> Home </a></li>
+				<li><a href="http://192.168.0.104/user/hindhu/attendenceh.php"> Attendance</a></li>
+				<li><a href=""> Courses </a></li>
+				<li><a href=""> Activities </a>
+                    <ul>
+		                <li><a href=""> Inter </a>
+			                <ul>
+                                <li><a href="http://localhost/user/hindhu/activities/inter/mpc.php"> MPC </a></li>
+                                <li><a href="http://localhost/user/hindhu/activities/inter/bipc.php"> BIPC </a></li>
+                                <li><a href="http://localhost/user/hindhu/activities/inter/cec.php"> CEC </a></li>
+						        <li><a href="http://localhost/user/hindhu/activities/inter/hec.php"> HEC </a></li>
+	                            <li><a href="http://localhost/user/hindhu/activities/inter/mec.php"> MEC </a></li>
+                            </ul>
+			            </li>
+		                <li><a href=""> Degree </a>
+		                    <ul>
+                                <li><a href="http://localhost/user/hindhu/activities/degree/ba.php"> BA </a></li>
+				                <li><a href="http://localhost/user/hindhu/activities/degree/bsc.php"> BSC </a></li>
+                                <li><a href="http://localhost/user/hindhu/activities/degree/bcom.php"> BCOM </a></li>
+				
+                            </ul>
+                        </li>
+       
+	</li>
+    </ul>
+    </li>
+
+				</li>
+				<li><a href=""> Registration </a>
+				<ul>
+                    <li><a href="http://192.168.0.104/user/hindhu/registration/registrationI.php"> Inter </a></li>
+                    <li><a href="http://192.168.0.104/user/hindhu/registration/registrationD.php"> Degree</a></li>
+                </ul>
+				</li>
+           
+				<li><a href=""> Finance </a>
+	            <ul>
+                    <li><a href=""> Inter </a>
+			            <ul>
+                            <li><a href="http://localhost/user/hindhu/finance.php"> Enter </a></li>
+                            <li><a href="http://localhost/user/hindhu/finance/totalfee.php"> Search </a></li>
+			            </ul>	
+			        </li>
+                    <li><a href=""> Degree</a>
+			            <ul>
+                            <li><a href="http://localhost/user/hindhu/dfinance.php"> Enter </a></li>
+							<li><a href="http://localhost/user/hindhu/finance/degree/dtotalfee.php"> Search </a></li>
+                        
+			            </ul>   
+			        </li>
+                 </ul>
+	            </li>
+				<li><a href=""> Marks </a>
+				    <ul>
+		                <li><a href=""> Inter </a>
+			                <ul>
+                                <li><a href=""> ENTER </a></li>
+                                <li><a href=""> SEARCH </a></li>
+                            </ul>
+			             </li>
+		                <li><a href=""> Degree </a>
+		                    <ul>
+                               <li><a href="http://localhost/user/hindhu/Dmarksenter.html"> ENTER </a></li>
+                               <li><a href="http://localhost/user/hindhu/Dmarksearch.html"> SEARCH </a></li>
+                            </ul>
+			            </li>
+		            </ul>
+				</li>
+				<li><a href="http://localhost/user/hindhu/backgroundI.php"> Background </a>
+				    <ul>
+					    <li><a href="http://localhost/user/hindhu/background/backgroun.php">rural</a></li>
+						<li><a href="http://localhost/user/hindhu/background/backgroun.php">urban</a></li>
+					</ul>
+				</li>
+				
+				<li><a href="http://localhost/user/hindhu/communityI.php"> Community </a></li>
+				
+			</ul>
+	</div>
+    </header>
+</body>
+</html>
